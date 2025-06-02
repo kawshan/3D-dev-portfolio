@@ -1,5 +1,6 @@
 import {words} from "../constants/index.js";
 import Button from "../components/button.jsx";
+import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 
 const Hero = () => {
     return (
@@ -40,7 +41,21 @@ const Hero = () => {
                     </div>
 
                 </header>
-            {/*    right hero content*/}
+
+
+            {/*    right 3D model content*/}
+                <figure>
+                    <div className="hero-3d-layout">
+                        <HeroExperience />
+                    </div>
+                </figure>
+
+
+
+
+
+
+
             </div>
 
 
